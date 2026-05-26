@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Ocean background -->
+  <circle cx="50" cy="50" r="50" fill="#1B3F5E"/>
+
+  <!-- Tail fin -->
+  <path d="M 74 50 L 89 36 Q 92 50 89 64 Z"
+        fill="#E8570A" stroke="#1A0800" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Body -->
+  <ellipse cx="47" cy="50" rx="28" ry="19"
+           fill="#E8570A" stroke="#1A0800" stroke-width="2"/>
+
+  <!-- Dorsal fin (top) -->
+  <path d="M 33 32 Q 47 17 63 32"
+        fill="none" stroke="#E8570A" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 33 32 Q 47 17 63 32"
+        fill="none" stroke="#1A0800" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Pectoral fin -->
+  <path d="M 42 58 Q 36 70 46 68 Q 44 62 42 58 Z"
+        fill="#E8570A" stroke="#1A0800" stroke-width="1.5"/>
+
+  <!-- White stripe 1 — head band -->
+  <path d="M 26 38 Q 22 50 26 62 Q 31 67 35 65 Q 30 50 35 35 Q 31 33 26 38 Z"
+        fill="white" stroke="#1A0800" stroke-width="1.5"/>
+
+  <!-- White stripe 2 — mid band -->
+  <rect x="46" y="31" width="8" height="38" rx="4"
+        fill="white" stroke="#1A0800" stroke-width="1.5"/>
+
+  <!-- White stripe 3 — tail band -->
+  <rect x="66" y="40" width="6" height="20" rx="3"
+        fill="white" stroke="#1A0800" stroke-width="1.5"/>
+
+  <!-- Eye white -->
+  <circle cx="24" cy="47" r="5" fill="white" stroke="#1A0800" stroke-width="1.5"/>
+  <!-- Pupil -->
+  <circle cx="23.5" cy="48" r="2.8" fill="#111111"/>
+  <!-- Catchlight -->
+  <circle cx="22.5" cy="46.8" r="1" fill="white"/>
+</svg>
