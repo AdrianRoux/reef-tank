@@ -1,0 +1,23 @@
+{
+  // Cloudflare configuration for the Reef Tank app.
+  // One-time setup (see CLOUDFLARE-SETUP.md):
+  //   1. npx wrangler login
+  //   2. npx wrangler d1 create reef-tank   → paste the database_id below
+  //   3. npx wrangler secret put SYNC_TOKEN → choose a passphrase
+  //   4. npm run deploy
+  "name": "reef-tank",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-01-01",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "reef-tank",
+      "database_id": "9a65be48-66dc-4082-9aa3-9b0ae24f0669"
+    }
+  ]
+}
